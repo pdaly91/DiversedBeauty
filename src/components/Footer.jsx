@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className="fixed h-64 flex flex-row justify-between items-center bottom-0 inset-x-0 bg-gray-100">
+      <div className="fixed min-h-64 py-8 flex lg:flex-row flex-col gap-8 justify-between items-center bottom-0 inset-x-0 bg-gray-100">
         {/* Logo / Socials */}
         <div className="m-4 ml-10">
           <div className="text-3xl font-thin">
