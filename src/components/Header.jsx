@@ -8,7 +8,7 @@ const Header = () => {
         {/* empty div to get Logo centered */}
         <div className="flex-1"></div>
         {/* Logo */}
-        <div className="m-2">
+        <div className="m-2 text-3xl font-thin">
           DIVERSED Beauty
         </div>
         {/* Mobile Version */}
