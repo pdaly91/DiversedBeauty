@@ -20,20 +20,20 @@ const Header = () => {
           </button>
           <div className={`fixed z-40 left-0 top-20 right-0 w-full bg-gray-100 overflow-hidden flex flex-col lg:hidden origin-top duration-700 ${!menuToggle ? "h-0" : "h-full"}`}>
             <div className="flex flex-col content-center w-full gap-4 font-light">
-              <div className="m-auto">Home</div>
-              <div className="m-auto">Products</div>
-              <div className="m-auto">About</div>
-              <div className="m-auto">Contact</div>
+              <div className="m-auto cursor-pointer hover:underline">Home</div>
+              <div className="m-auto cursor-pointer hover:underline">Products</div>
+              <div className="m-auto cursor-pointer hover:underline">About</div>
+              <div className="m-auto cursor-pointer hover:underline">Contact</div>
             </div>
           </div>
         </div>
         {/* Desktop Version */}
         <div className="hidden lg:flex flex-1 justify-end">
           <div className="flex flex-row gap-4 w-1/2 justify-evenly mr-10 font-light">
-            <div className="m-auto">Home</div>
-            <div className="m-auto">Products</div>
-            <div className="m-auto">About</div>
-            <div className="m-auto">Contact</div>
+            <div className="m-auto cursor-pointer hover:underline">Home</div>
+            <div className="m-auto cursor-pointer hover:underline">Products</div>
+            <div className="m-auto cursor-pointer hover:underline">About</div>
+            <div className="m-auto cursor-pointer hover:underline">Contact</div>
           </div>
         </div>
       </div>
