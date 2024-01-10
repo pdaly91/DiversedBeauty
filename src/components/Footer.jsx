@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -16,10 +18,10 @@ const Footer = () => {
         {/* Links */}
         <div className="flex flex-col gap-4 text-center">
           <div className="flex flex-row content-center gap-4 font-light">
-            <div className="m-auto cursor-pointer hover:underline">Home</div>
-            <div className="m-auto cursor-pointer hover:underline">About</div>
-            <div className="m-auto cursor-pointer hover:underline">Policies</div>
-            <div className="m-auto cursor-pointer hover:underline">Contact</div>
+            <Link to={'/'} className="m-auto cursor-pointer hover:underline">Home</Link>
+            <Link to={'/about'} className="m-auto cursor-pointer hover:underline">About</Link>
+            <Link to={'/policies'} className="m-auto cursor-pointer hover:underline">Policies</Link>
+            <Link to={'/contact'} className="m-auto cursor-pointer hover:underline">Contact</Link>
           </div>
           <div className="text-sm font-light text-center">
             © Diversed Beauty
