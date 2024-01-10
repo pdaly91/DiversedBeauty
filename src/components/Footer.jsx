@@ -17,8 +17,8 @@ const Footer = () => {
         <div className="flex flex-col gap-4 text-center">
           <div className="flex flex-row content-center gap-4 font-light">
             <div className="m-auto cursor-pointer hover:underline">Home</div>
-            <div className="m-auto cursor-pointer hover:underline">Products</div>
             <div className="m-auto cursor-pointer hover:underline">About</div>
+            <div className="m-auto cursor-pointer hover:underline">Policies</div>
             <div className="m-auto cursor-pointer hover:underline">Contact</div>
           </div>
           <div className="text-sm font-light text-center">

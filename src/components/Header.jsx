@@ -23,8 +23,8 @@ const Header = () => {
           <div className={`fixed z-40 left-0 top-60 right-0 w-full bg-gray-100 overflow-hidden flex flex-col lg:hidden origin-top duration-700 ${!menuToggle ? "h-0" : "h-full"}`}>
             <div className="flex flex-col content-center w-full gap-8 font-light">
               <div className="m-auto cursor-pointer hover:underline">Home</div>
-              <div className="m-auto cursor-pointer hover:underline">Products</div>
               <div className="m-auto cursor-pointer hover:underline">About</div>
+              <div className="m-auto cursor-pointer hover:underline">Policies</div>
               <div className="m-auto cursor-pointer hover:underline">Contact</div>
             </div>
           </div>
@@ -33,8 +33,8 @@ const Header = () => {
         <div className="hidden lg:flex flex-1 justify-end">
           <div className="flex flex-row gap-8 mb-8 justify-evenly font-light">
             <div className="m-auto cursor-pointer hover:underline">Home</div>
-            <div className="m-auto cursor-pointer hover:underline">Products</div>
             <div className="m-auto cursor-pointer hover:underline">About</div>
+            <div className="m-auto cursor-pointer hover:underline">Policies</div>
             <div className="m-auto cursor-pointer hover:underline">Contact</div>
           </div>
         </div>
