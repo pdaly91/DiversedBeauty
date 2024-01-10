@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
+import Logo from '../assets/Shortened_Logo_Brown.png';
 
 const Footer = () => {
   return (
     <>
-      <div className="fixed min-h-64 py-8 flex lg:pl-10 lg:flex-row flex-col gap-8 justify-between items-center bottom-0 inset-x-0 bg-gray-100">
+      <div className="fixed min-h-64 py-8 flex lg:pl-10 lg:flex-row flex-col gap-8 justify-between items-center bottom-0 inset-x-0 bg-[url('/src/assets/Banner_Temp.jpg')] bg-cover">
         {/* Logo / Socials */}
         <div className="flex-1">
-          <div className="text-3xl font-thin">
-            DIVERSED Beauty
+          <div className="text-3xl font-thin w-32">
+            <img
+              src={Logo}
+              alt="Diversed Beauty"
+              className="w-full"
+            />
           </div>
-          <div className="flex flex-row gap-4 justify-center lg:justify-start">
+          <div className="flex flex-row gap-4 ml-0 lg:ml-6 justify-center lg:justify-start">
             <div className="font-thin">IG</div>
             <div className="font-thin">FB</div>
             <div className="font-thin">LI</div>
