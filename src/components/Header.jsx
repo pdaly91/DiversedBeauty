@@ -23,20 +23,20 @@ const Header = () => {
           </button>
           <div className={`fixed z-40 left-0 top-60 right-0 w-full bg-gray-100 overflow-hidden flex flex-col lg:hidden origin-top duration-700 ${!menuToggle ? "h-0" : "h-full"}`}>
             <div className="flex flex-col content-center w-full gap-8 font-light">
-              <Link to={'/'} className="m-auto cursor-pointer hover:underline">Home</Link>
-              <Link to={'/about'} className="m-auto cursor-pointer hover:underline">About</Link>
-              <Link to={'/policies'} className="m-auto cursor-pointer hover:underline">Policies</Link>
-              <Link to={'/contact'} className="m-auto cursor-pointer hover:underline">Contact</Link>
+              <Link to={'/'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Home</Link>
+              <Link to={'/about'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">About</Link>
+              <Link to={'/policies'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Policies</Link>
+              <Link to={'/contact'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Contact</Link>
             </div>
           </div>
         </div>
         {/* Desktop Version */}
         <div className="hidden lg:flex flex-1 justify-end">
           <div className="flex flex-row gap-8 mb-8 justify-evenly font-light">
-            <Link to={'/'} className="m-auto cursor-pointer hover:underline">Home</Link>
-            <Link to={'/about'} className="m-auto cursor-pointer hover:underline">About</Link>
-            <Link to={'/policies'} className="m-auto cursor-pointer hover:underline">Policies</Link>
-            <Link to={'/contact'} className="m-auto cursor-pointer hover:underline">Contact</Link>
+            <Link to={'/'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Home</Link>
+            <Link to={'/about'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">About</Link>
+            <Link to={'/policies'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Policies</Link>
+            <Link to={'/contact'} onClick={() => setMenuToggle(false)} className="m-auto cursor-pointer hover:underline">Contact</Link>
           </div>
         </div>
       </div>
