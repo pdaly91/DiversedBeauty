@@ -24,7 +24,7 @@ const Footer = () => {
             <Link to={'/contact'} className="m-auto cursor-pointer hover:underline">Contact</Link>
           </div>
           <div className="text-sm font-light text-center">
-            © Diversed Beauty
+            © Diversed Beauty LLC
           </div>
         </div>
         {/* @ & Hashtag */}
