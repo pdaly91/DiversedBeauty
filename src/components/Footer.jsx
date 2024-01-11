@@ -4,7 +4,7 @@ import Logo from '../assets/Shortened_Logo_Brown.png';
 const Footer = () => {
   return (
     <>
-      <div className="fixed min-h-64 py-8 flex lg:pl-10 lg:flex-row flex-col gap-8 justify-between items-center bottom-0 inset-x-0 bg-[url('/src/assets/Banner_Temp.jpg')] bg-cover">
+      <div className="min-h-64 py-8 flex lg:pl-10 lg:flex-row flex-col gap-8 justify-between items-center bottom-0 inset-x-0 bg-[url('/src/assets/Banner_Temp.jpg')] bg-cover">
         {/* Logo / Socials */}
         <div className="flex-1">
           <div className="text-3xl font-thin w-32">
